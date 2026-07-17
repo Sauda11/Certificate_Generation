@@ -26,23 +26,23 @@ BLACK = (40, 40, 40)
 # POSITIONS
 # =====================================================
 
-NAME_Y = 540
+NAME_Y = 520
 
 COURSE_Y = 680
 
-DATE_POS = (150, 410)
+DATE_POS = (150, 535)
 
 DURATION_POS = (150, 632)
 
-LEVEL_POS = (150, 658)
+LEVEL_POS = (150, 728)
 
-CERTIFICATE_ID_POS = (150, 685)
+CERTIFICATE_ID_POS = (150, 820)
 
-SIGNATURE_POS = (355, 825)
+SIGNATURE_POS = (650, 825)
 
-SIGNATURE_SIZE = (200, 110)
+SIGNATURE_SIZE = (190, 100)
 
-QR_POS = (1245,750)
+QR_POS = (1220,750)
 
 QR_SIZE = (150, 150)
 
@@ -137,7 +137,7 @@ def generate_certificate(
         draw,
         student_name,
         "fonts/Cinzel-Bold.otf",
-        72,
+        65,
         980
     )
 
@@ -145,7 +145,7 @@ def generate_certificate(
         draw,
         course,
         "fonts/Poppins-Regular.ttf",
-        44,
+        60,
         900
     )
 
